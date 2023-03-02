@@ -41,13 +41,14 @@ const AppartementPage = () => {
                     <Collaps title='Description' body={<p className='descriptionAppartement'>{appartement.description}</p>} />
                 </div>
                 <div className='appartment-page'>
-                    <Collaps title='Equipements' body={<div>
-                        <div className='listeBurgerEquipement'>
-                            {appartement.equipments.map(equip => (
-                                <div className='equipment' key={equip}>{equip}</div>
-                            ))}
-                        </div>
-                    </div>} equipments={appartement.equipments} page='appartement' />
+                    <Collaps title='Equipements' body={
+                        <div>
+                            <div className='listeBurgerEquipement'>
+                                {appartement.equipments.map(equip => (
+                                    <div className='equipment' key={equip}>{equip}</div>
+                                ))}
+                            </div>
+                        </div>} equipments={appartement.equipments} page='appartement' />
                 </div>
 
             </Container>

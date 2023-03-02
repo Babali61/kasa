@@ -3,6 +3,7 @@
     .titleContainer {
         width: 1023px;
         margin: auto;
+        
     }
 
     .divParentBurger {
@@ -12,6 +13,7 @@
         border-radius: 5px;
         margin: auto;
         margin-bottom: 3%;
+        cursor: pointer;
 
         .ParaFiabilite {
             font-family: 'Calibri';
@@ -27,6 +29,7 @@
             display: inline-block;
             margin-left: -5px;
             transition: transform 0.3s ease-out;
+            rotate: 180deg;
 
             &.open {
                 transform: rotate(180deg);
@@ -56,6 +59,7 @@
         border-radius: 5px;
         margin: auto;
         margin-bottom: 3%;
+        cursor: pointer;
 
         .ParaFiabilite {
             font-family: 'Calibri';
@@ -71,6 +75,7 @@
             display: inline-block;
             margin-left: -5px;
             transition: transform 0.3s ease-out;
+            rotate: 180deg;
 
             &.open {
                 transform: rotate(180deg);
