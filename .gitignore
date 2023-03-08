@@ -10,7 +10,7 @@
 
 #deploy
 
-/build
+build
 
 # misc
 .DS_Store
