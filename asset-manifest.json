@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.13cae496.css",
+    "main.js": "/static/js/main.5c00bd6a.js",
+    "static/media/montagne.png": "/static/media/montagne.a7f1dd06a5adcda7668c.png",
+    "static/media/banniere.png": "/static/media/banniere.ec507f54a54fa1557e6e.png",
+    "index.html": "/index.html",
+    "main.13cae496.css.map": "/static/css/main.13cae496.css.map",
+    "main.5c00bd6a.js.map": "/static/js/main.5c00bd6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13cae496.css",
+    "static/js/main.5c00bd6a.js"
+  ]
+}
